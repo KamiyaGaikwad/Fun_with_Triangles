@@ -1,0 +1,9 @@
+/* .container{
+    max-width: 200px;
+    margin: auto;
+} */
+
+input,button{
+    display: block;
+    margin-bottom: 1rem;
+}

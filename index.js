@@ -1,7 +1,6 @@
 var inputAngle = document.querySelectorAll(".input-angle");
 var isTriangleButton = document.querySelector("#is-triangle-button");
 var outputDiv = document.querySelector("#output");
-
 isTriangleButton.addEventListener("click",isTriangle)
 
 function isTriangle(){

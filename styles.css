@@ -77,3 +77,12 @@ nav a {
     margin-bottom: 1rem;
 
 }
+
+#area-formula {
+    font-size: x-large;
+    border: 2px solid #ad1457;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+

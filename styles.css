@@ -1,9 +1,67 @@
-/* .container{
-    max-width: 200px;
-    margin: auto;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+body {
+    background-color: #1F2836;
+    color: #f9fafb;
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+}
+main {
+    text-align: center;
+    margin:auto;
+}
 
 input,button{
     display: block;
-    margin-bottom: 1rem;
+    margin:auto;
+    margin-bottom: 3rem;
 }
+
+input {
+    padding: 0.6rem;
+    width:50%;
+    color: black;
+    background-color: #78909c ;
+    border: 1px solid #263238;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width:51.7%;
+    background-color: #ad1457;
+    color: #f9fafb;
+    border: 1px solid #ad1457;
+    border-radius: 0.2rem;
+    font-size: large;
+}
+
+label {
+    font-size: large;
+}
+
+nav {
+    background-color:#ad1457;
+    font-size: larger;
+    padding: 1.4rem;
+    
+}
+
+nav a {
+    color: #fce4ec;
+    padding: 0.5rem;
+    text-decoration: none;
+    letter-spacing: 0.07rem;
+}
+
+#output {
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px) {
+    input,button{
+        margin-bottom: 2rem;
+    }
+    nav a{
+        padding-top: 2rem;
+    }
+  }

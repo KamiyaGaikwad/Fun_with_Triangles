@@ -8,15 +8,16 @@ body {
 main {
     text-align: center;
     margin:auto;
+    margin-bottom: 1rem;
 }
 
-input,button{
+input[type="number"],button{
     display: block;
     margin:auto;
     margin-bottom: 3rem;
 }
 
-input {
+input[type="number"] {
     padding: 0.6rem;
     width:50%;
     color: black;
@@ -65,7 +66,16 @@ nav a {
         margin-bottom: 2rem;
     }
     nav a{
-        padding-top: 2rem;
+        padding-top: 0.3rem;
+    }
+    .question-container {
+        width:85% !important;
+    }
+    #area-formula {
+        width:85% !important;
+    }
+    #hypotenuse-formula {
+        width:85% !important;
     }
   }
 
@@ -86,3 +96,20 @@ nav a {
     margin-bottom: 1rem;
 }
 
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.question-container {
+    border: 2px solid #ad1457;
+    width:50%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding:0.5rem;
+    padding-bottom:1rem;
+    border-radius: 0.3rem;
+}
+
+.question-container p {
+    font-size: larger;
+}

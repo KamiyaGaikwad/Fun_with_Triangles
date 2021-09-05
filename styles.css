@@ -22,6 +22,7 @@ input {
     color: black;
     background-color: #78909c ;
     border: 1px solid #263238;
+    font-size: medium;
 }
 
 button {
@@ -33,6 +34,8 @@ button {
     border: 1px solid #ad1457;
     border-radius: 0.2rem;
     font-size: large;
+    font-family: 'Baloo 2', cursive;
+    cursor: pointer;
 }
 
 label {
@@ -65,3 +68,12 @@ nav a {
         padding-top: 2rem;
     }
   }
+
+#hypotenuse-formula {
+    font-size: x-large;
+    border: 2px solid #ad1457;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+
+}

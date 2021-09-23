@@ -32,7 +32,13 @@ function isTriangle(){
     //     }
     // }
     // else 
-    
+    if(angle1 == 0 || angle2 == 0 || angle3 == 0){
+        outputDiv.innerText = "Please Enter all required fields 🧐";
+    }
+    else if(angle1 < 0 || angle2 < 0 || angle3 < 0){
+        outputDiv.innerText = "Please Enter positive values only 😐";
+    }
+    else{
     var sumAngles = calculateSumOfAngles(angle1,angle2,angle3);
     if(sumAngles == 180){
         showOutput("Yayy, the angles form a triangle");
@@ -42,6 +48,7 @@ function isTriangle(){
         showOutput("Oh no!, the angles do not form a triangle");
         
     }
+}
 }
 
 function calculateSumOfAngles(angle1,angle2,angle3){
